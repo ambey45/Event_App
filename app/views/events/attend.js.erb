@@ -1,0 +1,6 @@
+$("#attendee").html("<%= escape_javascript(render 'events/show',event: @event,attendee_users: @attendee_users) %>");
+$("#user_list").html("<%= escape_javascript(render 'events/attendee_users',attendee_users: @attendee_users) %>");
+
+
+
+

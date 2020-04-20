@@ -1,0 +1,6 @@
+<% @events.each do |event| %>
+	<div class="event-list">
+	<div class="event-name"><%= link_to event.name, event_path(event) %></div>
+	<div class="event-date"><%= event.start_date.strftime("%d/%m/%y") %></div>
+	</div>
+<% end %>

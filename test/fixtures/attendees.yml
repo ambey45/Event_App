@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  event_id: 1
+  joining_date: 2020-04-18 19:01:19
+  fee_paid: 1.5
+
+two:
+  user_id: 1
+  event_id: 1
+  joining_date: 2020-04-18 19:01:19
+  fee_paid: 1.5
